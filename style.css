@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+}
+.container{
+    max-width: 730px;
+    margin: 100px auto;
+    padding: 0 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: #222731;
+    font-family: Space Mono;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+header img{
+    cursor: pointer;
+}
+form{
+    padding: 9.5px 10px 9.5px 32px;
+    width: 730px;
+    height: 69px;
+    flex-shrink: 0; 
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px 5px rgba(70, 96, 187, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+button{
+    width: 106px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0079FF;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #225896;
+    transition: all 0.4s ease;
+}
+input{
+    border: none;
+    height: 25px;
+    width: 254px;
+    margin-right: 250px;
+}
+input::placeholder{
+    color: #4B6A9B;
+    font-family: Space Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+form img{
+    width: 24.058px;
+    height: 24px;
+    flex-shrink: 0;
+}
+main{
+    width: 730px;
+    height: 419px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+    margin-top: 24px;
+    padding: 44px 48px;
+    display: flex;
+    gap: 37px;
+}
+main img{
+    width: 117px;
+    height: 117px;
+    flex-shrink: 0;
+}
+.name-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    color: #2B3442;
+    font-family: Space Mono;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.name-user p{
+    color: #697C9A;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.user{
+    color: #0079FF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.profil{
+    color: #4B6A9B;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-top: 20px;
+}
+.follow{
+    width: 480px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F6F8FF;
+    margin-top: 32px;
+    display: flex;
+    padding: 15px 83px 17px 32px;
+    justify-content: space-between;
+}
+span{
+    color: #4B6A9B;
+    font-family: Space Mono;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h6{
+    color: #2B3442;
+        font-family: Space Mono;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+}
+.info{
+    width: 480px;
+    padding-right: 49px;
+
+    gap: 62px;
+}
+.locat{
+    display: flex;
+    gap: 16px;
+}
+.locat img{
+    width: 19.991px;
+    height: 19.945px;
+    flex-shrink: 0;
+}
+.part1{
+    display: flex;
+    gap: 120px;
+    margin-top: 37px;
+}
+.part2{
+    display: flex;
+    gap: 62px;
+    margin-top: 19px;
+}
+.info-txt{
+    color: #4B6A9B;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info-text{
+    color: #4B6A9B;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.4;
+}
