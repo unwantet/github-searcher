@@ -1,0 +1,1 @@
+dark funsiyasi ham ishlaydi
