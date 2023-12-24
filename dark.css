@@ -6,6 +6,7 @@
 }
 body{
     height: 80vh;
+    background: #141D2F;
 }
 .container{
     max-width: 730px;
@@ -17,7 +18,7 @@ header{
     justify-content: space-between;
 }
 h1{
-    color: #222731;
+    color: #FFF;
     font-family: Space Mono;
     font-size: 26px;
     font-style: normal;
@@ -28,12 +29,12 @@ header img{
     cursor: pointer;
 }
 form{
+    background: #141D2F;
     padding: 9.5px 10px 9.5px 32px;
     width: 730px;
     height: 69px;
     flex-shrink: 0; 
     border-radius: 15px;
-    background: #FEFEFE;
     box-shadow: 0px 16px 30px 5px rgba(70, 96, 187, 0.2);
     display: flex;
     justify-content: space-between;
@@ -60,13 +61,15 @@ button:hover{
     transition: all 0.4s ease;
 }
 input{
+    background-color: #141D2F;
     border: none;
     height: 25px;
     width: 254px;
     margin-right: 250px;
 }
 input::placeholder{
-    color: #4B6A9B;
+    color: #fff;
+    opacity: 0.8;
     font-family: Space Mono;
     font-size: 18px;
     font-style: normal;
@@ -81,12 +84,13 @@ form img{
     height: 24px;
     flex-shrink: 0;
 }
+
 main{
+    background: #141D2F;
     width: 730px;
-    /* height: 419px; */
     flex-shrink: 0;
     border-radius: 15px;
-    background: #FEFEFE;
+
     box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
     margin-top: 24px;
     padding: 44px 48px;
@@ -104,7 +108,7 @@ main img{
     align-items: center;
 }
 h2{
-    color: #2B3442;
+    color: #fff;
     font-family: Space Mono;
     font-size: 26px;
     font-style: normal;
@@ -112,7 +116,7 @@ h2{
     line-height: normal;
 }
 .name-user p{
-    color: #697C9A;
+    color: #fff;
     text-align: right;
     font-family: Space Mono;
     font-size: 15px;
@@ -134,7 +138,8 @@ h2{
 }
 
 .profil{
-    color: #4B6A9B;
+    color: #FFF;
+    opacity: 0.75;
     font-family: Space Mono;
     font-size: 15px;
     font-style: normal;
@@ -147,14 +152,14 @@ h2{
     height: 85px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #F6F8FF;
+    background: #0f1622;
     margin-top: 32px;
     display: flex;
     padding: 15px 83px 17px 32px;
     justify-content: space-between;
 }
 span{
-    color: #4B6A9B;
+    color: #FFF;;
     font-family: Space Mono;
     font-size: 13px;
     font-style: normal;
@@ -162,7 +167,7 @@ span{
     line-height: normal;
 }
 h6{
-    color: #2B3442;
+    color: white;
         font-family: Space Mono;
         font-size: 22px;
         font-style: normal;
@@ -196,7 +201,7 @@ h6{
     margin-top: 19px;
 }
 .info-txt{
-    color: #4B6A9B;
+    color: #fff;
     font-family: Space Mono;
     font-size: 15px;
     font-style: normal;
@@ -204,11 +209,20 @@ h6{
     line-height: normal;
 }
 .info-text{
-    color: #4B6A9B;
+    color: #fff;
     font-family: Space Mono;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     opacity: 0.4;
+}
+textarea:focus, input:focus {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.locat img{
+    fill: white;
 }
